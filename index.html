@@ -291,6 +291,24 @@ background:white;
 
 </section>
 
+  /* Gallery grid */
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+/* Gallery images */
+.gallery img{
+width:100%;
+height:220px;        /* forces same size */
+object-fit:cover;    /* crops nicely */
+border-radius:8px;
+box-shadow:0 4px 8px rgba(0,0,0,0.2);
+cursor:pointer;
+transition:0.3s;
+}
 <section id="gallery">
 
 <h2>Gallery</h2>
