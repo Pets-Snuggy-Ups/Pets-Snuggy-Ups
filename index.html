@@ -446,9 +446,9 @@
     const quantity = parseInt(document.getElementById(`${prefix}-quantity`).value);
 
     const priceMap = {
-      Luxury: { Small: 600, Medium: 750, Large: 850 },
-      Standard: { Small: 270, Medium: 330, Large: 380 },
-      Round: { Standard: 380, Luxury: 850 }
+      Luxury: { Small: 450, Medium: 510, Large: 690 },
+      Standard: { Small: 280, Medium: 320, Large: 360 },
+      Round: { Standard: SQ, Luxury: SQ }
     };
 
     const price = (priceMap[type] && priceMap[type][size]) ? priceMap[type][size] : 0;
