@@ -5,7 +5,7 @@ import React, { useMemo, useState, useEffect } from "react";
 
 // --- Configuration ---
 const STORE_WHATSAPP_NUMBER = "27726589482";
-const STORE_EMAIL = "yourstore@example.com";
+const STORE_EMAIL = "petsnuggyups@gmail.com";
 
 const formatZAR = (n) => new Intl.NumberFormat("en-ZA", { style: "currency", currency: "ZAR", minimumFractionDigits: 2 }).format(n);
 const uid = () => Math.random().toString(36).slice(2, 10).toUpperCase();
